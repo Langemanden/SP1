@@ -16,8 +16,8 @@ String[][] flagFiler = {
 
 PImage[][] flag = new PImage[4][4];
 
-int headerHøjde = 32;  // <- tilpasset
-int rækkeHøjde = 32;   // <- tilpasset
+int headerHøjde = 32;  
+int rækkeHøjde = 32;   
 
 color kantFarve = color(0, 50, 100);
 color headerFarve = color(0, 50, 100);
@@ -47,7 +47,7 @@ void draw() {
   stroke(kantFarve);
 
   int panelBredde = width / 2;
-  int panelHøjde = height / 2; // = 160
+  int panelHøjde = height / 2; 
 
   for (int g = 0; g < 4; g++) {
     int kol = g % 2;
