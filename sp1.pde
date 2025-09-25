@@ -70,7 +70,7 @@ void draw() {
       int ry = y + headerHøjde + i * rækkeHøjde;
       rect(x, ry, panelBredde, rækkeHøjde);
 
-      image(flag[g][i], x + 10, ry + 6, 30, 20); // passer i 32px række
+      image(flag[g][i], x + 10, ry + 6, 30, 20); 
       fill(0);
       text(hold[g][i], x + 50, ry + rækkeHøjde/2);
     }
